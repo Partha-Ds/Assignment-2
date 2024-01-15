@@ -1,0 +1,65 @@
+/* shared style */
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+.btn-primary-1{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+font-size: 1rem;
+font-weight: 700;
+border: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+/* section-1 styles */
+
+.section-1 {
+    margin: 60px 135px 100px;
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    color: #FFF;
+}
+
+.section-1>h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 105px;
+}
+
+.section-1>p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 25px 245px 50px;
+}
+
+.section-1>div {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+    padding: 15px;
+    margin: 0 350px 105px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.section-1>div select{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+border: 0;
+color: rgba(19, 19, 24, 0.50);
+font-size: 1rem;
+font-weight: 400;
+padding-left: 15px;
+}
