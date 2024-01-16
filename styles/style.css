@@ -15,6 +15,19 @@
     border: 0;
 }
 
+.heading {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+.shared-text-1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
 /* section-1 styles */
 
 .section-1 {
@@ -71,20 +84,21 @@
     line-height: 34px;
 }
 
-.section-2>div>h1 {
-    color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
-    padding-bottom: 25px;
-}
-
-.section-2>div>.intro, ul>li, .tour-description {
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
-    font-weight: 400;
-    padding-bottom: 25px;
-}
 .tour-description{
     color: #5A5A5D;
 padding-bottom: 30px;
+}
+
+/* .section-3 styles */
+.section-3 {
+    margin: 100px 135px;
+    text-align: center;
+}
+.img-container{
+    display: grid;
+    gap: 25px;
+    margin-top: 50px;
+}
+.row>img {
+    padding-right: 25px;
 }
