@@ -206,12 +206,55 @@
     left: 500px;
     rotate: -20deg;
 }
-.discount-badge p{
-font-size: 1.5rem;
-font-weight: 400;
-padding-top: 15px;
+
+.discount-badge p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 15px;
 }
-.discount-badge h3{
-font-size: 2rem;
-font-weight: 800;
+
+.discount-badge h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+
+
+/* footer style */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 502px;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 2rem;
+    padding-top: 110px;
+}
+
+.footer-title img {
+    padding-right: 20px;
+}
+
+.footer-title span {
+    color: #FF5400;
+}
+
+footer>img {
+    padding-left: 20px;
+}
+
+footer>hr {
+    width: 1400px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 50px 285px;
+}
+
+footer>small {
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
 }
