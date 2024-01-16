@@ -21,7 +21,8 @@
     font-weight: 800;
     padding-bottom: 25px;
 }
-.shared-text-1{
+
+.shared-text-1 {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -84,21 +85,66 @@
     line-height: 34px;
 }
 
-.tour-description{
+.tour-description {
     color: #5A5A5D;
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
-/* .section-3 styles */
+/* section-3 styles */
 .section-3 {
     margin: 100px 135px;
     text-align: center;
 }
-.img-container{
+
+.img-container {
     display: grid;
     gap: 25px;
     margin-top: 50px;
 }
+
 .row>img {
     padding-right: 25px;
+}
+
+/* section-4 styles */
+.section-4 {
+    margin: 100px 135px;
+    text-align: center;
+}
+
+.row-1 {
+    padding-top: 25px;
+    display: flex;
+    gap: 25px;   
+}
+
+.row-2{
+    margin-left: 435px;
+}
+
+.card {
+    width: 720px;
+    height: 284px;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    padding-top: 35px;
+}
+
+#card-1{
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+#card-2{
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+#card-3{
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
 }
