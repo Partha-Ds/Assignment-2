@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.btn-primary-1 {
+.btn-primary {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -22,11 +22,28 @@
     padding-bottom: 25px;
 }
 
-.shared-text-1 {
+.card-title {
+    font-size: 1.5rem;
+    padding-top: 35px;
+}
+
+.shared-text {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
     padding-bottom: 25px;
+}
+
+.shared-text-color {
+    color: #5A5A5D;
+    ;
+}
+
+.section-4,
+.section-3,
+.section-5 {
+    margin: 100px 135px;
+    text-align: center;
 }
 
 /* section-1 styles */
@@ -91,10 +108,6 @@
 }
 
 /* section-3 styles */
-.section-3 {
-    margin: 100px 135px;
-    text-align: center;
-}
 
 .img-container {
     display: grid;
@@ -107,18 +120,14 @@
 }
 
 /* section-4 styles */
-.section-4 {
-    margin: 100px 135px;
-    text-align: center;
-}
 
 .row-1 {
     padding-top: 25px;
     display: flex;
-    gap: 25px;   
+    gap: 25px;
 }
 
-.row-2{
+.row-2 {
     margin-left: 435px;
 }
 
@@ -131,20 +140,78 @@
     margin-bottom: 25px;
 }
 
-.card-title{
-    font-size: 1.5rem;
-    padding-top: 35px;
+#card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
 
-#card-1{
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+#card-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
-#card-2{
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+
+#card-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
-#card-3{
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+
+/* section-5 style */
+
+.section-5 {
+    display: flex;
+    gap: 25px;
+}
+
+.form-info-container {
+    width: 640px;
+    height: 420px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 5px 40px 15px;
+    text-align: left;
+}
+
+.form-info-container>hr {
+    margin-bottom: 25px;
+}
+
+.form-info {
+    width: 595px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+
+.input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+}
+
+.discount-container>img {
+    width: 900px;
+    height: 440px;
+}
+
+.discount-badge {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 400px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+    left: 500px;
+    rotate: -20deg;
+}
+.discount-badge p{
+font-size: 1.5rem;
+font-weight: 400;
+padding-top: 15px;
+}
+.discount-badge h3{
+font-size: 2rem;
+font-weight: 800;
 }
