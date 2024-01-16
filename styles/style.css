@@ -3,20 +3,18 @@
     font-family: 'Mulish', sans-serif;
     margin: 0;
 }
-.btn-primary-1{
+
+.btn-primary-1 {
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-font-size: 1rem;
-font-weight: 700;
-border: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 10px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0;
 }
+
 /* section-1 styles */
 
 .section-1 {
@@ -30,7 +28,7 @@ gap: 10px;
     color: #FFF;
 }
 
-.section-1>h2 {
+.section-1>h1 {
     font-size: 4rem;
     font-weight: 800;
     padding-top: 105px;
@@ -45,21 +43,48 @@ gap: 10px;
 .section-1>div {
     display: flex;
     justify-content: space-between;
-    /* gap: 25px; */
     padding: 15px;
     margin: 0 350px 105px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 }
 
-.section-1>div select{
+.section-1>div select {
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FFF;
-border: 0;
-color: rgba(19, 19, 24, 0.50);
-font-size: 1rem;
-font-weight: 400;
-padding-left: 15px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+/* section-2 styles */
+
+.section-2 {
+    margin: 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    line-height: 34px;
+}
+
+.section-2>div>h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.section-2>div>.intro, ul>li, .tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.tour-description{
+    color: #5A5A5D;
+padding-bottom: 30px;
 }
