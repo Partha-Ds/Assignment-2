@@ -290,6 +290,7 @@ nav li a {
 .card-content {
     padding-left: 20px;
     padding-top: 20px;
+    line-height: 35px;
 }
 
 .card-content>h1 {
